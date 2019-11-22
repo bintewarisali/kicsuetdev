@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>For Loop</h1>
+	<h2>Count 0 to 10</h2>
+	<script type="text/javascript">
+		var count;
+		document.write("Starting Loop" + "<br>");
+		for (count = 0; count < 11; count++) {
+			document.write("Current count : " + count);
+			document.write("<br>");
+		}
+		document.write("Stopping Loop" + "<br>");
+		
+	</script>
+
+	<h2>Count 10 to 0</h2>
+	<script type="text/javascript">
+		var count;
+		document.write("Starting Loop" + "<br>");
+		for (count = 10; count  >= 0; count--) {
+			document.write("Current count : " + count);
+			document.write("<br>");	
+				}
+			document.write("Stopping Loop" + "<br>");
+	</script>
+
+	<h2>Names</h2>
+	<script type="text/javascript">
+		var names = ["Saiqa", "Sana", "Iqra", "Ayesha", "Alisha", "Nida", "Muqddas", "Sher Bano", "Shumaila", "Samina"];
+		var text="";
+		var i;
+		for (i = 0; i < names.length; i++){
+			text += names[i] + "<br>";
+		}
+		document.write(text);
+
+	</script>
+
+
+</body>
+</html>
